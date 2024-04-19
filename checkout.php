@@ -138,38 +138,31 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <th>Contact*</th>
                     </tr>
                     <tr>
-                        <td>Email* </td>
-                        <td><input type="text" name="contact" value="<?=$user->email?>"></td>
+                        <td>Email* </td><td><input type="text" name="contact" value="<?=$user->email?>"></td>
                     </tr>
                     <tr>
-                        <td>Name </td>
-                        <td><input type="text" name="name" value="<?=$user->name?>"></td>
+                        <td>Name </td><td><input type="text" name="name" value="<?=$user->name?>"></td>
                     </tr>
                     <tr>
                         <th>Shipping Address</th>
                     </tr>
                     <tr>
-                        <td>Address Line 1*</td>
-                        <td><input name="address1" value="<?=$addr1?>"/></td>
+                        <td>Address Line 1*</td><td><input name="address1" value="<?=$addr1?>"/></td>
                     </tr>
                     <tr>
-                        <td>Address Line 2</td>
-                        <td><input name="address2" value="<?=$addr2?>"/></td>
+                        <td>Address Line 2</td><td><input name="address2" value="<?=$addr2?>"/></td>
                     </tr>
                     <tr>
                         <th>Card Details*</th>
                     </tr>
                     <tr>
-                        <td>Card Number* </td>
-                        <td><input name="card_number" type="number" value="<?=$cardN?>"/></td>
+                        <td>Card Number* </td><td><input name="card_number" type="number" value="<?=$cardN?>"/></td>
                     </tr>
                     <tr>
-                        <td>Expiry date* </td>
-                        <td><input name="expiry" type="text" value="<?=$expiry?>"/></td>
+                        <td>Expiry date* </td><td><input name="expiry" type="text" value="<?=$expiry?>"/></td>
                     </tr>
                     <tr>
-                        <td>CVV*</td>
-                        <td><input name="cvv" type="text" value="<?=$cvv?>"/></td>
+                        <td>CVV*</td><td><input name="cvv" type="text" value="<?=$cvv?>"/></td>
                     </tr>
                 </table>
                 <div class="error-message">
