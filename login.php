@@ -36,13 +36,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <table>
                 <tbody>
                     <tr>
-                        <td>Email</td>
-                        <td><input type="email" id="email" name="email" value="<?=$email?>" required>
+                        <td>Email</td><td><input type="email" id="email" name="email" value="<?=$email?>" required>
                         </td>
                     </tr>
                     <tr>
-                        <td>Password</td>
-                        <td><input type="password" id="password" name="password" value="<?=$password?>" required>
+                        <td>Password</td><td><input type="password" id="password" name="password" value="<?=$password?>" required>
                         </td>
                     </tr>
                 </tbody>
@@ -50,7 +48,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <input type="submit" value="Login" class="btn-primary">
             <div style="color: red; text-size: 14px;"><?=$error;?></div>
         </form>
-        <a href="register.php"><div>Don't have an account? register</div></a>
+        <a href="register.php"><div>Don't have an account? Register Here</div></a>
         
     </div>
      <script src="utils/button-interaction.js"></script>
