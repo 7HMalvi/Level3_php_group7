@@ -28,7 +28,7 @@ foreach ($cartProducts as $item) {
             <div><a href="checkout.php" style="color: white; text-decoration: none; margin-right:10px;">Checkout</a></div>
 
 
-            <!-- Cookie logout click -->
+            <!-- Logout Click -->
             <span style="color: white; text-decoration: none; margin-right:10px;" onclick="document.cookie='user=; expires='+new Date()+';';location.href='/Group7_Plantes/login.php'">Logout</span>
 
         </header>
