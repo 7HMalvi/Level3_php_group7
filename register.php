@@ -52,26 +52,22 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <tbody>
                     <tr>
                         <td>Email</td>
-                        <td>
-                            <input type="email" id="email" name="email" value="<?=$email?>" required>
+                        <td><input type="email" id="email" name="email" value="<?=$email?>" required>
                         </td>
                     </tr>
                     <tr>
                         <td>Username</td>
-                        <td>
-                            <input type="text" id="username" name="username" value="<?=$username?>" required>
+                        <td><input type="text" id="username" name="username" value="<?=$username?>" required>
                         </td>
                     </tr>
                     <tr>
                         <td>Password</td>
-                        <td>
-                            <input type="password" id="password" name="password" value="<?=$password?>" required>
+                        <td><input type="password" id="password" name="password" value="<?=$password?>" required>
                         </td>
                     </tr>
                     <tr>
                         <td>Confirm Password</td>
-                        <td>
-                            <input type="password" id="confirm-password" name="confirm-password" value="<?=$cpassword?>" required>
+                        <td><input type="password" id="confirm-password" name="confirm-password" value="<?=$cpassword?>" required>
                         </td>
                     </tr>
                 </tbody>
@@ -87,7 +83,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             ?>
             </div>
         </form>
-        <a href="login.php"><div>Already have an account? login</div></a>
+        <a href="login.php"><div>Already have an account?Login Here</div></a>
     </div>
      <script src="utils/button-interaction.js"></script>
 </body>
