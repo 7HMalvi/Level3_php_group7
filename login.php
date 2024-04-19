@@ -37,14 +37,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <tbody>
                     <tr>
                         <td>Email</td>
-                        <td>
-                            <input type="email" id="email" name="email" value="<?=$email?>" required>
+                        <td><input type="email" id="email" name="email" value="<?=$email?>" required>
                         </td>
                     </tr>
                     <tr>
                         <td>Password</td>
-                        <td>
-                            <input type="password" id="password" name="password" value="<?=$password?>" required>
+                        <td><input type="password" id="password" name="password" value="<?=$password?>" required>
                         </td>
                     </tr>
                 </tbody>
