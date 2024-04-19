@@ -38,7 +38,7 @@ class Product
             return $products;
         } catch (PDOException $e) 
         {
-            die("Query failed: " . $e->getMessage());
+            die("Query failed to fetch: " . $e->getMessage());
         }
     }
 }
